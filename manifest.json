@@ -1,0 +1,12 @@
+{
+  "manifest_version": 3,
+  "name": "Gemini Chat Title Renamer",
+  "version": "1.0",
+  "description": "Updates the browser tab title to match the current Gemini chat title.",
+  "content_scripts": [
+    {
+      "matches": ["https://gemini.google.com/*"],
+      "js": ["content.js"]
+    }
+  ]
+}
